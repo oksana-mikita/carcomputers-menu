@@ -309,17 +309,67 @@ img {
 }
 #categories li {
     padding: 0.625rem;
+    position: relative;
 }
 #categories li:hover {
     background-color: #0099ff;
 }
 #categories a {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     text-decoration: none;
     font-family: Arial, Helvetica, Verdana, sans-serif;
     line-height: 2;
     font-weight: 700;
+}
+#categories .drop-list {
+    box-shadow: 0 0px 2px 0 rgba(0,0,0,.2);
+    border: 1px solid #fff;
+    background-color: #0099ff;
+    z-index: 99;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    transition: .2s all ease-in-out;
+    min-width: 220px;
+}
+#categories .drop-list:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    background: transparent;
+    z-index: 99;
+    margin-top: -16px;
+    float: left;
+    left: 10px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #fff;
+    border-radius: 2px;
+}
+#categories .drop-list li{
+    padding: 0;
+}
+#categories .drop-list li a{
+    display: inline-block;
+    width: 100%;
+    padding: 3px 15px;
+}
+#categories .drop-list li+li{
+    border-top: 1px solid #4c9dfb;
+}
+#categories .drop-list li:hover{
+    background-color: #fff;
+}
+#categories .drop-list li:hover a{
+    color: #000;
+}
+#categories li:hover .drop-list {
+    display: block;
 }
 
 /*Main Banner*/
