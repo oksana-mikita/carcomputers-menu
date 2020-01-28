@@ -316,11 +316,11 @@ img {
 }
 #categories a {
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.3em;
     text-decoration: none;
     font-family: Arial, Helvetica, Verdana, sans-serif;
     line-height: 2;
-    font-weight: 700;
+    font-weight: 800;
 }
 #categories .drop-list {
     box-shadow: 0 0px 2px 0 rgba(0,0,0,.2);
@@ -360,7 +360,7 @@ img {
     padding: 3px 15px;
 }
 #categories .drop-list li+li{
-    border-top: 1px solid #4c9dfb;
+    border-top: 1px solid #0064a8;
 }
 #categories .drop-list li:hover{
     background-color: #fff;
@@ -1297,7 +1297,7 @@ img {
 	padding: 0 20px;
     }
     #categories li {
-	padding: 0.625rem 1.5625rem;
+	padding: 0.625rem 1.3rem;
     }
 
     .container {

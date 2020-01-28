@@ -16,7 +16,7 @@
 		    </ul>
 		</li>
 		<li>
-		    <a href="#" title="Truck & Disel Modules">TRUCK & DISEL MODULES</a>
+		    <a href="#" title="Truck & Disel Modules">TRUCK & DIESEL MODULES</a>
 		    <ul class="drop-list">
 			<li><a href="#">Dodge Ram</a></li>
 			<li><a href="#">Cummins Diesel</a></li>
@@ -28,7 +28,7 @@
 		    </ul>
 		</li>
 		<li>
-		    <a href="#" title="Caterpillar">PERFORMANCE TUNERS</a>
+		    <a href="#" title="Caterpillar">TUNERS</a>
 		    <ul class="drop-list">
 			<li><a href="#">Dodge Ram</a></li>
 			<li><a href="#">Cummins Diesel</a></li>
@@ -40,7 +40,7 @@
 		    </ul>
 		</li>
 		<li>
-		    <a href="#" title="Detroit Diesel"> BROWSE ALL >></a>
+		    <a href="#" title="Detroit Diesel">ALL PRODUCTS >></a>
 		    <ul class="drop-list">
 			<li><a href="#">Dodge Ram</a></li>
 			<li><a href="#">Cummins Diesel</a></li>
